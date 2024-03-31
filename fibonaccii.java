@@ -12,8 +12,7 @@ public class fibonaccii {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.println("enter ur range");
-        int n = s.nextInt();
+        int n = 5;
         System.out.println("Fibonacci Series up to " + n + ":");
         for (int i = 0; fibonacci(i) <= n; i++) {
             System.out.print(fibonacci(i) + " ");
